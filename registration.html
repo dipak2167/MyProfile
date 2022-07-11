@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Registration Form</title>
+</head>
+
+<body>
+    <h3> Student Registration form</h3>
+    <form>
+        <fieldset>
+            <legend><span>Student Registration form</span></legend>
+        
+        <table>
+        <tdoby>
+            <tr>
+                <td> <label for="first name"> First Name </label></td>
+                <td><input type="text" maxlength="7" id="firstname" placeholder="only First Name"></td>
+            </tr>
+            <tr>
+                <td><label> Last Name </label></td>
+                <td><input type="text" placeholder="only Last name"></td>
+            </tr>
+            <tr>
+                <td> <label> Mobile No. </label></td>
+                <td> <input type="number" required placeholder="only digit number"></td>
+            </tr>
+            
+            <tr>
+                <td><label>Email</label></td>
+                <td><input type="email" required></td>
+            </tr>
+            <tr>
+                <td><label>password</label></td>
+                <td><input type="password" required></td>
+            </tr>
+            <tr>
+                <td><label>Country Name</label></td>
+                <td><input type="text" value="India" readonlys></td>
+            </tr>
+            <tr>
+                <td><label>Do you have bank account</label></td>
+                <td><input type="text" value="Yes" disabled></td>
+            </tr>
+            <tr>
+                <td><label>Date of Birth</label></td>
+                <td><input type="date"></td>
+
+            </tr>
+
+            <tr>
+                <td><label>Available in week</label></td>
+                <td><input type="week"></td>
+
+            </tr>
+
+            <tr>
+                <td><label>Available Month</label></td>
+                <td><input type="month"></td>
+            </tr>
+
+            <tr>
+                <td><label>Appointment time</label></td>
+                <td><input type="time"></td>
+            </tr>
+
+            <tr>
+                <td>Select Profile Photo</td>
+                <td><input type="file"></td>
+            </tr>
+
+            <tr>
+                <td><label>Select Certificate</label></td>
+                <td><input type="file" multiple></td>
+            </tr>
+
+            <tr>
+                <td><label>Select Graduation</label></td>
+                <td>
+                    <select>
+                        <option>B.E.</option>
+                        <option>M.E.</option>
+                        <option>MBA</option>
+                    </select>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <select>
+                        <optgroup label="Bachelor of Engineering">
+                            <option> Computer Engineering</option>
+                            <option> Electrical Engineering</option>
+                            <option> Electronics Engineering</option>
+                            <option> Civil Engineering</option>
+                        </optgroup>
+                        <optgroup label="Master in Engineering">
+                            <option> Computer</option>
+                            <option>  Power Engineering</option>
+                            <option> Power Electronics Engineering</option>
+                            <option> Civil Engineering</option>
+                        </optgroup>
+
+                    </select>
+                </td>
+        
+            </tr>
+            <tr>
+                <td><label>select Gender</label></td>
+                <td><input type="radio" name="gender">
+                <label>male</label>
+                <input type="radio" name="gender">
+                    <label>Female</label>
+                    <input type="radio" name="gender">
+                    <label>other</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label> Interested for which course training</label></td>
+                <td>
+                    <input type="checkbox">
+                <label>Angular</label>
+
+                <input type="checkbox">
+                <label>Java</label>
+
+                <input type="checkbox">
+                <label>.Net</label>
+
+                <input type="checkbox">
+                <label>devOps</label>
+            </td>
+            </tr>
+            <tr>
+                <td><label>Address</label></td>
+                <td><textarea cols="30" rows="7"></textarea></td>
+            </tr>
+            <tr>
+                
+                <td> <input type="submit"></td>
+                <td> <input type="reset"></td>
+            </tr>
+        </tdoby>
+    </table>
+</fieldset>
+        </form>
+   
+
+</body>
+
+</html>
